@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fuumax.vfe",
+      "compileSdkVersion": 31,
+      "targetSdkVersion": 31,
+      "minSdkVersion": 24,
+      "buildToolsVersion": "31.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "833d119f-070e-48a1-af67-8f9a07728541"
+      }
     }
   }
 }
